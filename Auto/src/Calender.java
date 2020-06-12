@@ -19,7 +19,7 @@ driver.findElement(By.xpath("//button[@class='ui-datepicker-trigger']")).click()
 
 System.out.println(driver.findElement(By.xpath("(//div[@class='ui-datepicker-title'])[2]/span")).getText());
 while(!driver.findElement(By.xpath("(//div[@class='ui-datepicker-title'])[2]/span")).getText().contains("Oct")) {
-//while(!driver.findElement(By.xpath("//span[text()='Next']//div/span")).getText().contains("October")) {
+
 
 
 	driver.findElement(By.xpath("//a[@title='Next']/span")).click();
