@@ -63,7 +63,7 @@ public static void selectItem(WebDriver driver,Robot robot,JavascriptExecutor ex
 	//WebElement d=driver.findElement(By.xpath("//div[@class='check_available']/input"));
 	//executor.executeScript("arguments[0].scrollIntoView();",d);
 	//executor.executeScript("argument[0],click();",d);
-	//d.sendKeys("400001");
+	
 	//WebElement f=driver.findElement(By.xpath("//div[@class='check_available']/input[2]"));
 	//executor.executeScript("arguments[0].scrollIntoView();",f);
 	//executor.executeScript("argument[0],click();",f);
