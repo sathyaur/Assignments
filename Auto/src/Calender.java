@@ -45,6 +45,6 @@ for(int i=0;i<count;i++) {
 	//String day=driver.findElements(By.xpath("//td[@data-handler='selectDay']/a")).get(i).getText();
 	//if(day.contains("10")) {
 		//driver.findElements(By.xpath("//td[@data-handler='selectDay']/a")).get(i).click();
-	//}
+	
 
 }}
