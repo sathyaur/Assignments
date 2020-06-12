@@ -21,7 +21,7 @@ System.out.println(driver.findElement(By.xpath("(//div[@class='ui-datepicker-tit
 while(!driver.findElement(By.xpath("(//div[@class='ui-datepicker-title'])[2]/span")).getText().contains("Oct")) {
 //while(!driver.findElement(By.xpath("//span[text()='Next']//div/span")).getText().contains("October")) {
 
-//while(!title.findElement(By.cssSelector("//a/dic/span")).getText().contains("October")) {
+
 	driver.findElement(By.xpath("//a[@title='Next']/span")).click();
 //}
 	//}
